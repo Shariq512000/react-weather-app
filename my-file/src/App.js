@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Weather from './Weather';
+import "./App.css";
 
 
 function App() {
@@ -15,3 +16,4 @@ function App() {
 
   </div>
 }
+export default App;

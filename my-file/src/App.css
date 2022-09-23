@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+#navi {
+  background-color:black ;
+  height: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#first {
+  color: aqua; font-family: 'Courier New', Courier, monospace; font-size: 40px; padding: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+img {
+  width: 100px;
+}
+.fom {margin: 25px; display: flex; justify-content: center;}
+.fom > button {border-radius: 50px; padding: 15px; background-color: rgb(72, 72, 255); color: white; font-weight: bold; font-family: serif;}
+#city {border-radius: 50px; padding: 15px;}
+#cen { display: flex; justify-content: center; }
+#temp {
+      font-size: 100px;
+      font-weight: bold;
+      color: rgb(80, 77, 77);
+      margin-left: 10px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#par { display: flex; justify-content: center; margin-left: 320px; font-size: 30px; color: rgb(80, 77, 77); margin-top: 0px; }
+#second { margin-left: 300px; font-size: 25px; margin-top: 100px;}
+#foot {
+  background-color:black ;
+  height: 50px;
+  /* margin-top: 100px; */
+  /* bottom: 0px; */
+  /* position: ; */
 }

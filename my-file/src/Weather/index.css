@@ -1,0 +1,40 @@
+#navi {
+    background-color:black ;
+    height: 100px;
+}
+#first {
+    color: aqua; font-family: 'Courier New', Courier, monospace; font-size: 40px; padding: 30px;
+}
+img {
+    width: 100px;
+}
+.fom {margin: 25px; display: flex; justify-content: center;}
+.fom > button {border-radius: 50px; padding: 15px; background-color: rgb(72, 72, 255); color: white; font-weight: bold; font-family: serif;}
+#city {border-radius: 50px; padding: 15px;}
+#cen { display: flex; justify-content: center; }
+#temp {
+        font-size: 100px;
+        font-weight: bold;
+        color: rgb(80, 77, 77);
+        margin-left: 10px;
+    }
+#par { display: flex; justify-content: center; margin-left: 320px; font-size: 30px; color: rgb(80, 77, 77); margin-top: 0px; }
+#second { margin-left: 300px; font-size: 25px; margin-top: 100px;}
+#foot {
+    background-color:black ;
+    height: 50px;
+    /* margin-top: 100px; */
+    display: flex;
+    align-self: flex-end;
+    position: inherit;
+    bottom: 0px;
+}
+.main{
+    height: 725px;
+}
+#nm{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
