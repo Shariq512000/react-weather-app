@@ -47,7 +47,7 @@ function Weather() {
                         <div id="temp">{Math.round(weatherData?.current?.temp_c)}°C</div>
                     </div>
                     <br />
-                    <div id="par"> {weatherData.current.condition.text}</div>
+                    <div id="par"> {`(${weatherData.current.condition.text})`}</div>
                     <br />
                     <div id="second">
                         <div id="loco">location: {`${weatherData.location.name} , ${weatherData.location.region} , ${weatherData.location.country}`}</div>
@@ -56,11 +56,11 @@ function Weather() {
                         <br />
                         <div id="fl">Feelslike: {weatherData.current.feelslike_c}°C</div>
                         <br />
-                        <div id="hum">Humidity: {weatherData.current.humidity}</div>
+                        <div id="hum">Humidity: {weatherData.current.humidity}%</div>
                         <br />
-                        <div id="visi">Visibility: {weatherData.current.vis_km}</div>
+                        <div id="visi">Visibility: {weatherData.current.vis_km}km</div>
                         <br />
-                        <div id="ws">Wind Speed: {weatherData.current.wind_kph}</div>
+                        <div id="ws">Wind Speed: {weatherData.current.wind_kph}km/h</div>
                         
 
                     </div>
